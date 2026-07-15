@@ -13,6 +13,8 @@
 
     -   **Splunk Cloud**: 5GB/day for 14 days.
     -   **Splunk Enterprise**  (will be using): 500MB/day for 60 days.
+<img width="1651" height="691" alt="Screenshot 2026-07-15 103950" src="https://github.com/user-attachments/assets/eae272f7-7ac4-45f0-bc9e-bc73745093e1" />
+
     
 4.  Under  **Splunk Enterprise**, click  **Get My Free Trial**.
    <img width="1918" height="1026" alt="Screenshot 2026-07-14 215026" src="https://github.com/user-attachments/assets/44bfbadc-7e02-44c5-850b-9eacda57ac5b" />
