@@ -121,15 +121,15 @@ index="tutorialdata"
 ```
 index="tutorialdata" | stats count by source
 ```
-  <img width="1806" height="791" alt="Screenshot 2026-07-14 232432" src="https://github.com/user-attachments/assets/537e66bd-d44d-4bde-9fed-5569b2e625d0" />
+   <img width="1806" height="791" alt="Screenshot 2026-07-14 232432" src="https://github.com/user-attachments/assets/537e66bd-d44d-4bde-9fed-5569b2e625d0" />
 
   -    Click **Search** to display results
    
-  6. To find top client IPs, use the search and  Switch to **Visualization** tab to see results as a **Column Chart**
+7. To find top client IPs, use the search and  Switch to **Visualization** tab to see results as a **Column Chart**
   ```
   index="tutorialdata" | top limit=10 clientip
   ```
-  <img width="1775" height="677" alt="Screenshot 2026-07-14 233136" src="https://github.com/user-attachments/assets/04bb8f91-2656-490e-9d4d-22d806ebc46d" />
+   <img width="1775" height="677" alt="Screenshot 2026-07-14 233136" src="https://github.com/user-attachments/assets/04bb8f91-2656-490e-9d4d-22d806ebc46d" />
 
   ### Method 2: Ingesting Data Using Universal Forwarder
 
@@ -146,19 +146,19 @@ The  **Universal Forwarder**  is a lightweight Splunk agent that collects and se
 
 2.  Search  **Forwarding and Receiving**.
    
-  <img width="1918" height="1011" alt="Screenshot 2026-07-14 235101" src="https://github.com/user-attachments/assets/0f7cf39c-c35f-4b36-ba5b-fd66f886551f" />
+    <img width="1918" height="1011" alt="Screenshot 2026-07-14 235101" src="https://github.com/user-attachments/assets/0f7cf39c-c35f-4b36-ba5b-fd66f886551f" />
 
 3. Under **Receiving Data**, click **Configure Receiving**.
    
-   <img width="1908" height="833" alt="Screenshot 2026-07-14 235129" src="https://github.com/user-attachments/assets/627765e8-8e33-4cc8-9fcc-77cc198d98cd" />
+    <img width="1908" height="833" alt="Screenshot 2026-07-14 235129" src="https://github.com/user-attachments/assets/627765e8-8e33-4cc8-9fcc-77cc198d98cd" />
 
 4.  Click  **New Receiving Port**  and enter  `9997`.
    
-   <img width="1907" height="685" alt="Screenshot 2026-07-14 235152" src="https://github.com/user-attachments/assets/14329848-ed2d-4e5b-88af-a98f397d181f" />
+    <img width="1907" height="685" alt="Screenshot 2026-07-14 235152" src="https://github.com/user-attachments/assets/14329848-ed2d-4e5b-88af-a98f397d181f" />
 
 5. Configure the **Receiving port** to `9997` and ensure it is enabled.
     
-   <img width="1913" height="466" alt="Screenshot 2026-07-14 235805" src="https://github.com/user-attachments/assets/98c45546-3b45-40d0-a1bd-3fa9cf77c2ff" />
+    <img width="1913" height="466" alt="Screenshot 2026-07-14 235805" src="https://github.com/user-attachments/assets/98c45546-3b45-40d0-a1bd-3fa9cf77c2ff" />
 
 #### Step 3: Install and Configure the Forwarder on Windows
 
